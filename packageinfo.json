@@ -1,0 +1,44 @@
+{
+	"documentation": [],
+	"magic": {
+		"magic": "packageinfo",
+		"version": 2
+	},
+	"meta": {
+		"authors": [
+			{
+				"email": "pubsrc@binary-overflow.de",
+				"name": "J\u00fcrgen Knauth"
+			}
+		],
+		"description": "This python module offers support for URL handling. It provides the furl implementation as well as some additional features.",
+		"development_status": "stable",
+		"keywords": [
+			"url",
+			"www",
+			"html"
+		],
+		"language": "python3",
+		"license": "Apache2",
+		"name": "jk_furl",
+		"packageClass": "python-module",
+		"version": "0.2019.8.12"
+	},
+	"repositories": [],
+	"requirements": {
+		"python_packages": [
+			"furl"
+		],
+		"python_packages_dev": [
+			"jk_testing"
+		],
+		"system_apt_packages": []
+	},
+	"source": {
+		"extra_binary_files": [],
+		"extra_data_files": [],
+		"packages": [
+			"jk_furl"
+		]
+	}
+}
