@@ -11,7 +11,7 @@
 				"name": "J\u00fcrgen Knauth"
 			}
 		],
-		"description": "This python module offers support for URL handling. It provides the furl implementation as well as some additional features.",
+		"description": "This python module offers support for URL handling. It provides the existing furl implementation as well as some additional features.",
 		"development_status": "stable",
 		"keywords": [
 			"url",
@@ -22,7 +22,7 @@
 		"license": "Apache2",
 		"name": "jk_furl",
 		"packageClass": "python-module",
-		"version": "0.2019.8.12"
+		"version": "0.2021.3.15"
 	},
 	"repositories": [],
 	"requirements": {

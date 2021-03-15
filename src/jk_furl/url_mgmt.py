@@ -73,8 +73,13 @@ def createNormalizingBaseURL(someURL:str):
 	u = furl(someURL)
 	forcePath = str(u.path) if u.path else None
 	if forcePath:
+		#print(">", type(forcePath), forcePath)
 		if not forcePath.endswith("/"):
-			forcePath = "/".join(forcePath.split[:-1]) + "/"
+			#print(">>", forcePath[:-1])
+			#print(">>", forcePath[:-1].split("/"))
+			#forcePath = "/".join(forcePath[:-1].split("/")) + "/"	????????
+			#print(">>", forcePath)
+			forcePath += "/"
 	forcePort = u.port if u.port else None
 	forceScheme = u.scheme if u.scheme else None
 	forceHost = u.host if u.host else None

@@ -12,19 +12,18 @@
 from setuptools import setup
 
 def readme():
-	with open("README.rst", "r", encoding="UTF-8-sig") as f:
+	with open("README.md", "r", encoding="UTF-8-sig") as f:
 		return f.read()
 
 setup(
 	author = "Jürgen Knauth",
 	author_email = "pubsrc@binary-overflow.de",
 	classifiers = [
-		"Programming Language :: Python :: 3",
 		"Development Status :: 5 - Production/Stable",
 		"License :: OSI Approved :: Apache Software License",
+		"Programming Language :: Python :: 3",
 	],
-	description = "This python module offers support for URL handling. It provides the furl implementation as well as some additional features.",
-	download_url = "https://github.com/jkpubsrc/......../tarball/0.2019.8.12",
+	description = "This python module offers support for URL handling. It provides the existing furl implementation as well as some additional features.",
 	include_package_data = False,
 	install_requires = [
 		"furl",
@@ -34,13 +33,13 @@ setup(
 		"www",
 		"html",
 	],
-	license = "Apache 2.0",
+	license = "Apache2",
 	name = "jk_furl",
 	packages = [
 		"jk_furl",
 	],
-	url = "https://github.com/jkpubsrc/........",
-	version = "0.2019.8.12",
+	version = "0.2021.3.15",
 	zip_safe = False,
 	long_description = readme(),
+	long_description_content_type="text/markdown",
 )
