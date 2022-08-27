@@ -8,7 +8,7 @@ This python module offers support for URL handling. It provides the `furl` imple
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/python-module-jk-furl)
+* [github.com](https://github.com/jkpubsrc/python-module-jk-furl)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_furl)
 
 Why this module?
